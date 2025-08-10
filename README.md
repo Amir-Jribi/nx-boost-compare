@@ -27,12 +27,13 @@ It exposes a C++ function to Python (using nanobind) that compares two graphs fo
 - nanobind (included as a git submodule)
 
 ## Build Instructions
-  git clone https://github.com/Amir-Jribi/nx-boost-compare
-  cd nx-boost-compare
-  git submodule add https://github.com/wjakob/nanobind ext/nanobind
-  git submodule update --init --recursive
-  mkdir build 
-  cd build
-  cmake -S .. -B .
-  make
+
+git clone https://github.com/Amir-Jribi/nx-boost-compare  
+cd nx-boost-compare  
+git submodule add https://github.com/wjakob/nanobind ext/nanobind  
+git submodule update --init --recursive  
+mkdir build  
+cd build  
+cmake -S .. -B .  
+make
 
