@@ -30,7 +30,7 @@ It exposes a C++ function to Python (using nanobind) that compares two graphs fo
 
 git clone https://github.com/Amir-Jribi/nx-boost-compare  
 cd nx-boost-compare  
-git submodule add https://github.com/wjakob/nanobind ext/nanobind  
+git submodule add -f https://github.com/wjakob/nanobind ext/nanobind  
 git submodule update --init --recursive  
 mkdir build  
 cd build  
